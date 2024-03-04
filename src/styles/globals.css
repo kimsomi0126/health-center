@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+html {
+  position: relative;
+  font-size: 10px;
+}
+body {
+  position: relative;
+}
+button {
+  cursor: pointer;
+  border:0;
+}
+
+main {
+  padding:3rem;
+  font-size: 1.4rem;
+}
