@@ -7,27 +7,27 @@
   : [참고문서](https://prettier.io/)
   : `yarn add --dev --exact prettier`
   : ./.prettierrc.json 파일 생성
-    ```json
-    {
-      "singleQuote": true,
-      "semi": true,
-      "useTabs": false,
-      "tabWidth": 2,
-      "trailingComma": "all",
-      "printWidth": 80,
-      "arrowParens": "avoid",
-      "endOfLine": "auto"
-    }
-    ```
+  ```json
+  {
+    "singleQuote": true,
+    "semi": true,
+    "useTabs": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "arrowParens": "avoid",
+    "endOfLine": "auto"
+  }
+  ```
 - ESLint 에서 prettier 설정 제어
   : [설정](https://nextjs.org/docs/app/building-your-application/configuring/eslint#prettier)
   : `yarn add --dev eslint-config-prettier`
   : .eslintrc.json
-    ```json
-    {
-      "extends": ["next/core-web-vitals", "prettier"]
-    }
-    ```
+  ```json
+  {
+    "extends": ["next/core-web-vitals", "prettier"]
+  }
+  ```
 - SCSS 설정
   :`yarn add sass`
 
