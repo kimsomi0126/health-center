@@ -37,3 +37,14 @@
     margin-right: 0.5rem;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .box {
+    font-size: 0;
+    padding: 0.5;
+    svg {
+      font-size: 2rem;
+      margin: 0;
+    }
+  }
+}
