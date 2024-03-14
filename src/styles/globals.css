@@ -38,3 +38,13 @@ main {
 .inner {
   padding: 0 3%;
 }
+
+.markerBox {
+  position: absolute;
+  left: 3%;
+  top: 10%;
+  background: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
