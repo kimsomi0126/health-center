@@ -160,7 +160,7 @@ const Feedback = (): JSX.Element => {
                                   type="text"
                                   id="name"
                                   name="name"
-                                  className="w-full text-xl bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                  className="w-full text-xl bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                   value={name}
                                   required
                                   onChange={e => {
@@ -181,7 +181,7 @@ const Feedback = (): JSX.Element => {
                                   type="email"
                                   id="email"
                                   name="email"
-                                  className="w-full text-xl bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                  className="w-full text-xl bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200  outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                   value={email}
                                   required
                                   onChange={e => {
@@ -201,7 +201,7 @@ const Feedback = (): JSX.Element => {
                                 <textarea
                                   id="message"
                                   name="message"
-                                  className="w-full text-xl bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                                  className="w-full text-xl bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32  outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                                   value={message}
                                   required
                                   onChange={e => {
@@ -265,7 +265,7 @@ const Feedback = (): JSX.Element => {
                                 onChange={e => {
                                   setEditMessage(e.target.value);
                                 }}
-                                className="w-full text-lg bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                                className="w-full text-lg bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32  outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                               ></textarea>
                               <div className="flex gap-5">
                                 <button

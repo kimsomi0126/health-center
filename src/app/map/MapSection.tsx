@@ -5,6 +5,7 @@ import { NaverMap } from '@/types/map';
 import Markers from '@/components/home/Markers';
 import { useCurrentInfo } from '@/hooks/useCurrentInfo';
 import { useSearchParams } from 'next/navigation';
+import { Coordinates } from '@/types/info';
 
 const MapSection = () => {
   const searchParams = useSearchParams();
@@ -12,7 +13,7 @@ const MapSection = () => {
   const lat = searchParams.get('lat');
   const lng = searchParams.get('lng');
   const initialZoom = zoom ? Number(zoom) : INITIAL_ZOOM;
-  const initialCenter =
+  const initialCenter: Coordinates =
     lat && lng ? [Number(lat), Number(lng)] : INITIAL_CENTER;
   // console.log(zoom, lat, lng);
   // 보관하고있던 SWR 좌표값 삭제
