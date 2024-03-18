@@ -10,7 +10,7 @@ export type Info = {
   건강증진센터구분?: string;
   소재지도로명주소?: string;
   소재지지번주소?: string;
-  coordinates: Coordinates[];
+  coordinates: Coordinates;
   건강증진업무내용?: string;
   운영시작시각?: string;
   운영종료시각?: string;
