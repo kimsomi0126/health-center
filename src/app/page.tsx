@@ -12,6 +12,7 @@ import { Info } from '@/types/info';
 import { useMap } from '@/hooks/useMap';
 import { useRouter } from 'next/navigation';
 import copy from 'copy-to-clipboard';
+import { Suspense } from 'react';
 
 export default function Home() {
   // 라우터 활용
@@ -48,7 +49,7 @@ export default function Home() {
     };
 
     fetchInfoList();
-  }, []);
+  }, [initializeInfo]);
 
   return (
     <>
@@ -77,7 +78,10 @@ export default function Home() {
         ]}
       />
       <main>
-        <MapSection />
+        {/* Next.js 13이상 버전 처리 */}
+        <Suspense fallback={<>Loading...</>}>
+          <MapSection />
+        </Suspense>
       </main>
     </>
   );
